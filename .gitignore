@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Credentials / secrets
+.kaggle/
+kaggle.json
+**/kaggle.json
+secrets.json
+*.secrets.json
+credentials.json
