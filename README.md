@@ -44,7 +44,18 @@ Detectar automáticamente si una hoja de planta está sana o enferma, y clasific
 | 14 | 95.40% | 97.97% | 0.2933 | 0.1895 |
 | **15** | **96.95%** | **99.07%** | **0.2156** | **0.1338** |
 
+### 📉 Gráficas de Entrenamiento
+
+<div align="center">
+
+<img src="assets/training_results_clean.png" alt="Gráficas de Accuracy y Loss durante el entrenamiento" width="100%"/>
+
+*Evolución de Accuracy y Loss a lo largo de 15 épocas de entrenamiento*
+
+</div>
+
 ---
+
 
 ## 🧠 Arquitectura del Modelo
 
@@ -162,7 +173,9 @@ plant-disease-classification-resnet9/
 ├── 📓 train_resnet9_optimized.ipynb   # Notebook principal (entrenamiento completo)
 ├── 🔐 credentials.json               # Credenciales de Kaggle (NO se sube a Git)
 ├── 📄 .gitignore                      # Archivos ignorados por Git
-└── 📖 README.md                       # Este archivo
+├── 📖 README.md                       # Este archivo
+└── 📁 assets/
+    └── 🖼️ training_results_clean.png  # Gráficas de accuracy y loss
 ```
 
 ### Archivos Generados en Google Drive (`Moviles AI99/`)
@@ -191,12 +204,12 @@ Los siguientes archivos sensibles están excluidos del repositorio mediante `.gi
 
 ## 👨‍💻 Autor
 
-**Mesias Mariscal V.**
+**Mesias Mariscal**
 
 ---
 
 <div align="center">
 
-*Proyecto académico — Universidad — Desarrollo de Aplicaciones Móviles (3er Parcial)*
+*Proyecto académico — Universidad*
 
 </div>
